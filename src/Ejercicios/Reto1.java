@@ -1,6 +1,7 @@
 package Ejercicios;
 
 public class Reto1 {
+    //24/02/2026
     public static void main(String[] args) {
         double[] precios ={0,0,0,0,0};
         java.util.Scanner sc = new java.util.Scanner(System.in);
