@@ -1,5 +1,3 @@
-package Ejercicios;
-public class Ejercicio4 {
 //Ejercicio 4 — Placa de un vehículo
 //El RUNT almacena datos básicos de vehículos. Modela la información de un carro con:
 
@@ -10,6 +8,8 @@ public class Ejercicio4 {
 //Inicial del color (char)
 //Si tiene SOAT vigente (boolean)
 //Muestra todos los datos en consola.
+public class Ejercicio4 {
+
    public static void main(String[] args) {
     String placaVehiculo = "ABC-123";
     int anoFabricacion = 2010;

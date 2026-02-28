@@ -1,5 +1,3 @@
-package Ejercicios;
-public class Ejercicio1 {
   //Ejercicio 1 — Ficha de un estudiante
 //Un sistema universitario necesita registrar la información básica de un estudiante: nombre completo, código (número entero), semestre actual, promedio acumulado y si está matriculado o no.
 
@@ -8,6 +6,8 @@ public class Ejercicio1 {
 //Imprime un reporte por consola con el siguiente formato:
 //=== Ficha Del Estudiante ===
 //
+public class Ejercicio1 {
+
      public static void main(String[] args) {
        String nombreEstudiante = "Sebastian Picon Silva";
        int codigoEstudiante = 123456789;

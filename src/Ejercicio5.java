@@ -1,5 +1,3 @@
-package Ejercicios;
-public class Ejercicio5 {
     //Ejercicio 5 — Conversor de unidades
 //Una aplicación de cocina necesita convertir unidades:
 
@@ -7,6 +5,8 @@ public class Ejercicio5 {
 //Convierte a mililitros (1 taza = 236.588 ml) y guarda el resultado en otra variable.
 //Convierte también a litros.
 //Muestra las tres medidas por consola.
+public class Ejercicio5 {
+
     public static void main(String[] args) {
         double tazasIngrediente = 10;
         double CONSTANTE_CONVERSION = 236.588; // 1 taza = 236.588 mililitros

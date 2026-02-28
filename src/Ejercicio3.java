@@ -1,5 +1,3 @@
-package Ejercicios;
-public class Ejercicio3 {
     //Ejercicio 3 — Sensor de temperatura
 //Un sensor industrial registra temperaturas. El sistema recibe:
 
@@ -8,7 +6,9 @@ public class Ejercicio3 {
 //Número de lectura (int)
 //Si la temperatura supera el límite de 80°C, una variable boolean llamada enAlarma debe ser true.
 //Imprime el estado del sensor con todos sus datos.
-    public static void main(String[] args) {
+public class Ejercicio3 {
+
+public static void main(String[] args) {
         double temperaturaActual = 90;
         String nombreSensor = "Sensor de Temperatura";
         int numeroLectura = 1;
