@@ -7,6 +7,7 @@
 //  Si no está, se le niega la entrada.
 //Algoritmo a usar: Búsqueda Binaria. Es eficiente 
 // para buscar códigos numéricos en una lista que ya está organizada.
+//
 public class Ejercicio4 {
     public static void main(String[] args) {
         int[] codigosAcceso = {1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010};

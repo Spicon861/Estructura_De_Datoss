@@ -6,6 +6,7 @@
 
 //String nombre
 //double nota1, nota2, nota3, nota4
+//
 public class InputEjercicio3 {
     public static void main(String[] args) {
         java.util.Scanner sc = new java.util.Scanner(System.in);

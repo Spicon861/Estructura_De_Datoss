@@ -6,6 +6,7 @@
 //El sistema debe encontrar sus datos de la manera más rápida posible (en pocos pasos).
 //Algoritmo a usar: Búsqueda Binaria. Como los datos ya están ordenados, 
 //este algoritmo permitirá encontrar al cliente dividiendo la lista a la mitad en cada paso.
+//
 public class Ejercicio2 {
     public static void main(String[] args) {
         int[] cedulas = {100001, 100002, 100003, 100004, 100005, 100006, 100007, 100008, 100009, 100010};
