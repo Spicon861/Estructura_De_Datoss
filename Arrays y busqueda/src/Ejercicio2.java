@@ -9,8 +9,10 @@
 //
 public class Ejercicio2 {
     public static void main(String[] args) {
+        java.util.Scanner sc = new java.util.Scanner(System.in);
         int[] cedulas = {100001, 100002, 100003, 100004, 100005, 100006, 100007, 100008, 100009, 100010};
-        int cedulaBuscada = 100001;
+        System.out.println("Ingrese el número de cédula a buscar:");
+        int cedulaBuscada = sc.nextInt();
         int inicio = 0;
         int fin = cedulas.length - 1;
         boolean encontrado = false;

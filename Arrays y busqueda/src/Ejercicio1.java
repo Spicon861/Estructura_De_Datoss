@@ -6,8 +6,11 @@
 //
 public class Ejercicio1 {
     public static void main(String[] args) {
+        java.util.Scanner sc = new java.util.Scanner(System.in);    
         int[] productos = {123456, 654321, 770123, 111111, 222222};
-        int codigoBuscado = 770123;
+        
+        System.out.println("Ingrese el código del producto a buscar:");
+        int codigoBuscado = sc.nextInt();
         boolean encontrado = false;
 
         for (int i = 0; i < productos.length; i++) {

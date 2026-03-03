@@ -10,8 +10,10 @@
 //
 public class Ejercicio4 {
     public static void main(String[] args) {
+        java.util.Scanner sc = new java.util.Scanner(System.in);
         int[] codigosAcceso = {1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010};
-        int codigoIngresado = 1005;
+        System.out.println("Por favor, ingrese su código de acceso:");
+        int codigoIngresado = sc.nextInt();
         int inicio = 0;
         int fin = codigosAcceso.length - 1;
         boolean accesoPermitido = false;
