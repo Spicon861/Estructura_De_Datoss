@@ -21,6 +21,7 @@ public class InputEjercicio5 {
         double peso = sc.nextDouble();
         System.out.println("Ingrese su altura en metros: ");
         double altura = sc.nextDouble();
+        sc.close();
 
         double imc = peso / (altura * altura); // Calculamos el IMC
         System.out.println("Nombre: " + nombre);

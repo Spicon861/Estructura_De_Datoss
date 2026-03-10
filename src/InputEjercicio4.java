@@ -19,6 +19,7 @@ public class InputEjercicio4 {
         String correo = sc.nextLine();
         System.out.println("¿Acepta términos y condiciones? (true/false): ");
         boolean aceptaTerminos = sc.nextBoolean();
+        sc.close();
 
         System.out.println("\n=== Resumen del Perfil ===");
         System.out.println("Nombre: " + nombre + " (String)");

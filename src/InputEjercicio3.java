@@ -19,6 +19,7 @@ public class InputEjercicio3 {
         sumaNotas = sumaNotas + nota;
 
     }
+    sc.close();
     double promedio = sumaNotas / 4;
     System.out.println("Nombre: " + nombre);
     System.out.println("Promedio: " + promedio);

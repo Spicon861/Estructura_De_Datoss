@@ -11,6 +11,7 @@ public class InputEjercicio2 {
         java.util.Scanner sc = new java.util.Scanner(System.in);
         System.out.println("Ingrese la temperatura en Celsius: ");
         double temperaturaCelsius = sc.nextDouble();
+        sc.close();
 
         double temperaturaFahrenheit = (temperaturaCelsius * 9/5) + 32; // Convertir a Fahrenheit
         double temperaturaKelvin = temperaturaCelsius + 273.15; // Convertir a Kelvin

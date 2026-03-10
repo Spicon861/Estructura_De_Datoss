@@ -7,6 +7,7 @@ public class Reto1 {
             System.out.println("Ingrese el precio del producto " + (i+1) + ": ");
             precios[i] = sc.nextDouble();
         }
+        sc.close();
          double preciosTotal= 0;
         for(int i=0; i < precios.length; i++){
           preciosTotal = preciosTotal + precios[i];

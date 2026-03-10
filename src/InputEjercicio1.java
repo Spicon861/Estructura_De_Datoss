@@ -16,7 +16,7 @@ public class InputEjercicio1 {
         int cantidadComprada = sc.nextInt();
         System.out.println("Ingrese el precio unitario: ");
         double precioUnitario = sc.nextDouble();
-
+        sc.close();
         double subtotal = cantidadComprada * precioUnitario;
         double iva = subtotal * 0.19; // 19% de IVA
         double totalPagar = subtotal + iva;
