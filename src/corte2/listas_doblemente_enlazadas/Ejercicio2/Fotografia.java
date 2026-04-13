@@ -1,4 +1,4 @@
-package corte2.listas_soblemente_enlazadas.Ejercicio2;
+
 public class Fotografia {
     String nombreArchivo;
     double tamanoMB;

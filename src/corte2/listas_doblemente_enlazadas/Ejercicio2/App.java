@@ -1,4 +1,4 @@
-package corte2.listas_soblemente_enlazadas.Ejercicio2;
+
 //2. Carrusel de Imágenes (Galería Interactiva)
 //Simula el comportamiento de una galería de fotos en una aplicación móvil.
 
@@ -16,11 +16,12 @@ public class App {
         ColaFotografias cola = new ColaFotografias();
         do {
             System.out.println("1. Agregar fotografía");
-            System.out.println("2. Reproducir galería");
-            System.out.println("3. Salir");
+            System.out.println("2. Reproducir galería hacia adelante");
+            System.out.println("3. Reproducir galería hacia atrás");
+            System.out.println("4. Salir");
             System.out.print("Seleccione una opción: ");
             opcion = sc.nextInt();
-            sc.nextLine(); // Limpiar el buffer
+            sc.nextLine(); 
 
             switch (opcion) {
                 case 1:
@@ -28,16 +29,19 @@ public class App {
                     String nombreArchivo = sc.nextLine();
                     System.out.print("Ingrese el tamaño en MB: ");
                     double tamanoMB = sc.nextDouble();
-                    sc.nextLine(); // Limpiar el buffer
+                    sc.nextLine(); 
                     System.out.print("Ingrese la resolución: ");
                     String resolucion = sc.nextLine();
 
                     cola.agregarFotografia(nombreArchivo, tamanoMB, resolucion);
                     break;
                 case 2:
-                    cola.reproducirGaleria();
+                    cola.reproducirGaleriaDelante();
                     break;
                 case 3:
+                    cola.reproducirGaleriaAtras();
+                    break;
+                case 4:
                     System.out.println("Saliendo...");
                     break;
                 default:

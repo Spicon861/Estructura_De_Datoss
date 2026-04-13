@@ -1,9 +1,11 @@
-package corte2.listas_soblemente_enlazadas.Ejercicio2;
+
 public class ColaFotografias {
+    Fotografia actual;
     Fotografia inicio;
     Fotografia fin;
 
     public ColaFotografias() {
+        this.actual = null;
         this.inicio = null;
         this.fin = null;
     }
@@ -20,26 +22,22 @@ public class ColaFotografias {
         }
     }
 
-    public void reproducirGaleria() {
-        System.out.println("Reproduciendo galería hacia adelante:");
+    public void reproducirGaleriaDelante() {
         Fotografia actual = inicio;
         while (actual != null) {
-            System.out.println("Nombre Archivo: " + actual.nombreArchivo);
-            System.out.println("Tamaño (MB): " + actual.tamanoMB);
-            System.out.println("Resolución: " + actual.resolucion);
-            System.out.println("-------------------------");
+            System.out.println("Nombre: " + actual.nombreArchivo + ", Tamaño: " + actual.tamanoMB + "MB, Resolución: " + actual.resolucion);
             actual = actual.siguiente;
         }
-
-        System.out.println("Reproduciendo galería hacia atrás:");
-        actual = fin;
+    }
+    public void reproducirGaleriaAtras() {
+        Fotografia actual = fin;
         while (actual != null) {
-            System.out.println("Nombre Archivo: " + actual.nombreArchivo);
-            System.out.println("Tamaño (MB): " + actual.tamanoMB);
-            System.out.println("Resolución: " + actual.resolucion);
-            System.out.println("-------------------------");
+            System.out.println("Nombre: " + actual.nombreArchivo + ", Tamaño: " + actual.tamanoMB + "MB, Resolución: " + actual.resolucion);
             actual = actual.anterior;
         }
     }
+
+    
+    
     
 }
