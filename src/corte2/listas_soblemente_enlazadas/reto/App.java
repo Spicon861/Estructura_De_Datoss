@@ -1,4 +1,4 @@
-package corte2.reto;
+package corte2.listas_soblemente_enlazadas.reto;
 import java.util.Scanner;
 //Reto 2: Contar los Nodos
 //A diferencia de los arreglos, que tienen la propiedad .length,

@@ -42,6 +42,13 @@ public class colaPestana {
             actual = actual.anterior; 
         }
     }
+    public void mostrarPestanasEnOrden() {
+        pestana actual = inicio;
+        while (actual != null) {
+            System.out.println("Título: " + actual.titulodepagina + ", URL: " + actual.url + ", Hora de Apertura: " + actual.horaApertura);
+            actual = actual.siguiente;
+        }
+    }
 
     
 }

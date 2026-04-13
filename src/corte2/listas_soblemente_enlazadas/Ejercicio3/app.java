@@ -36,6 +36,7 @@ public class app {
                 System.out.print("Ingrese la URL de la pestaña a cerrar: ");
                 String urlCerrar = sc.nextLine();
                 colaPestanas.cerrarPestanaActual(urlCerrar);
+                colaPestanas.mostrarPestanasEnOrden();
                 break;
             case 3:
                 System.out.println("Saliendo...");

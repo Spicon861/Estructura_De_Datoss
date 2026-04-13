@@ -1,4 +1,4 @@
-package corte2.reto;
+package corte2.listas_soblemente_enlazadas.reto;
 public class Lista {
     int id;
     Lista siguiente;
