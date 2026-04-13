@@ -1,55 +1,18 @@
-# Mi presentacion
+## Getting Started
 
-## Sobre mi
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-| Campo | Detalle |
-|-------|---------|
-| Nombre | `Sebastian Picon Silva` |
-| Universidad | `Universidad Popular del Cesar seccional Aguachica` |
-| Carrera | `Ingenieria en Sistemas` |
-| Semestre | `5to semestre` |
-| Edad | `19 anios` |
-| Correo | `spicons@unicesar.edu.co` |
-| GitHub | `@spicon861` |
-| LinkedIn | `linkedin.com/in/tu-perfil` |
+## Folder Structure
 
+The workspace contains two folders by default, where:
 
-## Habilidades tecnicas
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
 
-**Lenguajes:**
-`Java` `C++`
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-**Frameworks y herramientas:**
-`Git` 
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-**Bases de datos:**
-`EN PROCESO` 
+## Dependency Management
 
-## Proyectos destacados
-
-| Proyecto | Descripcion | Tecnologias |
-|----------|-------------|-------------|
-| sistema de gestion de reservas | proyecto sencillo del tercer semestre | Java |
-| simulador educativo circuitos RC y RL | simulador interactivo para los estudiantes de fisica y calculo | C# |
-
-## Actualmente aprendiendo
-
-- Base de datos
-
-## Intereses
-
-- Desarrollo web y movil
-- Ciencia de datoshttps://github.com/Spicon861/presentacion
-
-## Estadisticas de GitHub
-
-> Aqui puedes agregar tus stats con [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats):
->
-> `![Stats](https://github-readme-stats.vercel.app/api?username=TU-USUARIO&show_icons=true&theme=radical)`
-
-## Contacto
-
-No dudes en contactarme para colaborar en proyectos o simplemente charlar sobre tecnologia.
-
----
-*Hecho con dedicacion por un estudiante apasionado por la tecnologia*
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
