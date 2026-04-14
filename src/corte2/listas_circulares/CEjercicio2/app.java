@@ -1,4 +1,4 @@
-package corte2.listas_circulares.Ejercicio2;
+package corte2.listas_circulares.CEjercicio2;
 //2. Carrusel de Anuncios (Pantalla Digital)
 //Una tienda tiene una pantalla que muestra anuncios en rotación continua. Cuando termina el
 //último anuncio, vuelve automáticamente al primero.

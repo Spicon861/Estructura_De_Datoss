@@ -1,4 +1,4 @@
-package corte2.listas_circulares.Ejercicio3;
+package corte2.listas_circulares.CEjercicio3;
 import java.util.Scanner;
 //3. Planificador de CPU (Algoritmo Round Robin)
 //Los sistemas operativos usan el algoritmo Round Robin para repartir el tiempo del procesador
@@ -14,7 +14,7 @@ import java.util.Scanner;
 //debe terminar cuando la lista quede vacía. Al final, imprime el orden en que terminaron los
 //procesos.
 
-public class app {
+public class App {
     public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             int opcion;

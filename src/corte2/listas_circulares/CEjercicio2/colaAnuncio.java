@@ -13,12 +13,10 @@ public class colaAnuncio {
             cabeza = nuevoAnuncio;
             cola = nuevoAnuncio;
             nuevoAnuncio.siguiente = nuevoAnuncio; 
-            nuevoAnuncio.anterior = nuevoAnuncio;
+
         } else {
             cola.siguiente = nuevoAnuncio;
-            nuevoAnuncio.anterior = cola; 
             nuevoAnuncio.siguiente = cabeza; 
-            cabeza.anterior = nuevoAnuncio; 
             cola = nuevoAnuncio; 
         }
     }

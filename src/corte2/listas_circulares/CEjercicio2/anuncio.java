@@ -1,4 +1,4 @@
-package corte2.listas_circulares.Ejercicio2;
+package corte2.listas_circulares.CEjercicio2;
 public class anuncio {
     String titulo;
     int duracionSegundos;
@@ -7,7 +7,7 @@ public class anuncio {
     
     
     anuncio siguiente;
-    anuncio anterior;
+
 
     public anuncio(String titulo, int duracionSegundos, String categoria) {
         this.titulo = titulo;
@@ -15,6 +15,5 @@ public class anuncio {
         this.categoria = categoria;
         this.repeticiones = 0;
         this.siguiente = null;
-        this.anterior = null;
     }
 }
