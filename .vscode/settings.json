@@ -1,7 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "src/corte2/listas_soblemente_enlazadas/Ejercicio2",
-        "src/corte2/listas_doblemente_enlazadas/Ejercicio2"
+        "src/corte2/listas_doblemente_enlazadas/Ejercicio2",
+        "src/corte2/listas_circulares/Ejercicio3"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
